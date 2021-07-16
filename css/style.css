@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+html {
+	width: 100%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	background: #EEEFF1;
+	position: absolute;
+	width: 1920px;
+	height: 700px;
+	left: 0px;
+	top: -7px;
+}
+.wraper {
+	box-sizing: border-box;
+	border: transparent;
+	margin: 57px 405px 146px 402px;
+}
+.menu {
+	float: right;
+}
+.menu > a {
+	height: 16px;
+	margin-top: 22px;
+	margin-left: 42px;
+	letter-spacing: 0.1em;
+	color: #000;
+	text-decoration: none;
+}
+#pc {
+	position: absolute;
+	top: 278px;
+	right: 1076px;
+	bottom: 188px;
+	left: 487px;
+}
+.topform {
+	position: absolute;
+	top: 257px;
+	right: 405px;
+	bottom: 146px;
+	left: 974px;
+}
+.topform > h1 {
+	height: 45px;
+	margin-bottom: 60px;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 79px;
+}
+.topform > p {
+	font-size: 16px;
+	line-height: 26px;
+	color: #727272;
+	margin-bottom: 60px;
+}
+.topform > button {
+	background: #34547A;
+	width: 225px;
+	height: 65px;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	color: #FFF
+}
+.aboutme {
+	position: absolute;
+	height: 1920px;
+	background: #fff; 
+	margin-top: 812px;
+	text-align: center;
+}
+.aboutme > h2 {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 37px;
+	color: #000;
+	margin-bottom: 50px;
+}
+.aboutme > div > p {
+	font-size: 16px;
+	line-height: 26px;
+	color: #727272;
+}
+.aboutme > div {
+	margin: 0 690px 100px;
+}
+.items {
+	position: relative;
+	background: #34547A;
+}
+.items > img (
+	display: inline-block;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 49px;
+)
